@@ -56,7 +56,7 @@ export default function Hero() {
       </div>
       {/* OUR CLIENTS */}
       <div className="bg-footer_bg bg-cover bg-center p-8">
-        <h2 className="font-playfair font-bold text-3xl text-center text-white pt-10">
+        <h2 className="font-playfair font-bold text-4xl text-center text-white pt-10">
           Some of our clients
         </h2>
         <div className="flex justify-around px-14">

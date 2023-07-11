@@ -18,6 +18,8 @@ module.exports = {
       colors: {
         "s2s-green": "#007B76",
         "s2s-slate": "#1F1F1F",
+        "tab-gray": "#FAFAFA",
+        "tab-dark-gray": "#F4F4F4",
       },
       aspectRatio: {
         "3/2": "3 / 2",
