@@ -1,12 +1,14 @@
 export default function Hero() {
   return (
     <>
-      <div className="hero mt-20 p-5">
+      <div className="hero mt-10 lg:mt-20 p-4 lg:p-5">
         <div className="hero-text">
-          <h1 className="capitalize mb-5 font-playfair text-center lg:text-6xl font-bold bg-hero_bg bg-cover bg-center bg-clip-text text-transparent">
+          <h1 className="capitalize mb-5 font-playfair text-center text-4xl lg:text-6xl font-bold bg-hero_bg bg-cover bg-center bg-clip-text text-transparent">
             {" "}
             A B2B Marketing Agency for{" "}
-            <span className="block py-5">Technology Companies</span>{" "}
+            <span className="block py-1 lg:py-5">
+              Technology Companies
+            </span>{" "}
           </h1>
           <p className="text-center font-montserrat">
             Specialising in Lead Generation, Creative, Content Marketing and

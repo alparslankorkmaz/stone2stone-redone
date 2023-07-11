@@ -1,6 +1,6 @@
 import "./globals.css";
 import Header from "@/components/Header";
-// import Footer from "@/components/Footer";
+import Footer from "@/components/Footer";
 import { Playfair_Display, Montserrat } from "next/font/google";
 
 const playfair_display = Playfair_Display({
@@ -28,7 +28,7 @@ export default function RootLayout({ children }) {
       <body className={`${playfair_display.variable} ${montserrat.variable}`}>
         <Header />
         {children}
-        {/* <Footer /> */}
+        <Footer />
       </body>
     </html>
   );

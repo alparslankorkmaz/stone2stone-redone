@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         hero_bg: "url('/images/hero_bg.jpg')",
+        footer_bg: "url('/images/footer/footer_bg.jpg')",
       },
       fontFamily: {
         playfair: ["var(--font-playfair_display)"],
@@ -16,6 +17,7 @@ module.exports = {
       },
       colors: {
         "s2s-green": "#007B76",
+        "s2s-slate": "#1F1F1F",
       },
     },
   },
