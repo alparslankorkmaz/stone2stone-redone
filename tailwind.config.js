@@ -19,6 +19,9 @@ module.exports = {
         "s2s-green": "#007B76",
         "s2s-slate": "#1F1F1F",
       },
+      aspectRatio: {
+        "3/2": "3 / 2",
+      },
     },
   },
   plugins: [],

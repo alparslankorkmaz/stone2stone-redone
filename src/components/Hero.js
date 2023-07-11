@@ -2,6 +2,7 @@ export default function Hero() {
   return (
     <>
       <div className="hero mt-10 lg:mt-20 p-4 lg:p-5">
+        {/* TEXT */}
         <div className="hero-text">
           <h1 className="capitalize mb-5 font-playfair text-center text-4xl lg:text-6xl font-bold bg-hero_bg bg-cover bg-center bg-clip-text text-transparent">
             {" "}
@@ -18,6 +19,76 @@ export default function Hero() {
               Leading B2B Technology, Software and SaaS Businesses.
             </span>
           </p>
+        </div>
+        {/* GIFS */}
+        <div className="my-10">
+          {/* FIRST ROW */}
+          <div className="grid grid-cols-4 lg:me-14 mt-14">
+            <div className="col-span-2 lg:col-span-1">
+              <img src="/images/placeholder.png" alt="placeholder" />
+            </div>
+            <div className="col-span-2 lg:col-span-1">
+              <img src="/images/placeholder.png" alt="placeholder" />
+            </div>
+            <div className="col-span-2 lg:col-span-1">
+              <img src="/images/placeholder.png" alt="placeholder" />
+            </div>
+            <div className="col-span-2 lg:col-span-1">
+              <img src="/images/placeholder.png" alt="placeholder" />
+            </div>
+          </div>
+          {/* SECOND ROW */}
+          <div className="grid grid-cols-4 lg:ms-20 mt-7">
+            <div className="col-span-2 lg:col-span-1">
+              <img src="/images/placeholder.png" alt="placeholder" />
+            </div>
+            <div className="col-span-2 lg:col-span-1">
+              <img src="/images/placeholder.png" alt="placeholder" />
+            </div>
+            <div className="col-span-2 lg:col-span-1">
+              <img src="/images/placeholder.png" alt="placeholder" />
+            </div>
+            <div className="col-span-2 lg:col-span-1">
+              <img src="/images/placeholder.png" alt="placeholder" />
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* OUR CLIENTS */}
+      <div className="bg-footer_bg bg-cover bg-center p-10">
+        <h2 className="font-playfair font-bold text-3xl text-center text-white pt-10">
+          Some of our clients
+        </h2>
+        <div className="flex justify-around px-14">
+          <img
+            src="/images/clients/cradlepoint.png"
+            alt=""
+            className="w-2/12 aspect-3/2 object-contain p-5"
+          />
+
+          <img
+            src="/images/clients/forescout.png"
+            alt=""
+            className="w-2/12 aspect-3/2 object-contain p-5"
+          />
+
+          <img
+            src="/images/clients/checkpoint.png"
+            alt=""
+            className="w-2/12 aspect-3/2 object-contain p-5"
+          />
+
+          <img
+            src="/images/clients/trendmicro.png"
+            alt=""
+            className="w-2/12 aspect-3/2 object-contain p-5"
+          />
+
+          <img
+            src="/images/clients/cynet.png"
+            alt=""
+            className="w-2/12 aspect-3/2 object-contain p-5"
+          />
         </div>
       </div>
     </>
