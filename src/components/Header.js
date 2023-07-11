@@ -44,7 +44,7 @@ export default function Header() {
             <img
               src="/images/header/vector.png"
               alt="contact us"
-              className="bg-s2s-green p-3 rounded-full w-14"
+              className="bg-s2s-green rounded-full p-3 w-14"
             />
           </Link>
         </div>
