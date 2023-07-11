@@ -55,7 +55,7 @@ export default function Hero() {
         </div>
       </div>
       {/* OUR CLIENTS */}
-      <div className="bg-footer_bg bg-cover bg-center p-10">
+      <div className="bg-footer_bg bg-cover bg-center p-8">
         <h2 className="font-playfair font-bold text-3xl text-center text-white pt-10">
           Some of our clients
         </h2>
