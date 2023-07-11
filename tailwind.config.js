@@ -14,6 +14,9 @@ module.exports = {
         playfair: ["var(--font-playfair_display)"],
         montserrat: ["var(--font-montserrat)"],
       },
+      colors: {
+        "s2s-green": "#007B76",
+      },
     },
   },
   plugins: [],
