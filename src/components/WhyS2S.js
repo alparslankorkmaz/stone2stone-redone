@@ -2,9 +2,9 @@ import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
 import Autoplay from "embla-carousel-autoplay";
-import { testimonialByIndex, reviewerByIndex } from "./TestimonialByIndex";
+import { titleByIndex, textByIndex, imgByIndex } from "./WhyS2SByIndex";
 
-const Testimonials = (props) => {
+const WhyS2S = (props) => {
   const { slides, options } = props;
   const [emblaRef, emblaApi] = useEmblaCarousel(options, [Autoplay()]);
 
@@ -20,41 +20,35 @@ const Testimonials = (props) => {
   );
 
   return (
-    <div className="relative overflow-hidden lg:overflow-visible lg:p-20 mb-28">
+    <div className="relative lg:p-20 mb-28">
       <h4 className="font-playfair text-3xl text-center font-bold mb-32">
-        Trusted by Technology Companies Everywhere
+        Why Technology Companies use S2S{" "}
       </h4>
-      <img
-        src="/images/quote1.png"
-        alt="quote sign"
-        className="absolute lg:top-52 lg:left-96 w-24 z-10"
-      />
       <div className="embla">
         <div className="embla__viewport" ref={emblaRef}>
           <div className="embla__container ">
             {slides.map((index) => (
               <div
-                className="embla__slide mx-10 lg:mx-20 flex justify-center items-center "
+                className="embla__slide mx-10 lg:mx-10 flex justify-center items-center "
                 key={index}
               >
-                <div className="embla__slide__div bg-tab-gray p-16 rounded-xl">
-                  <h6 className="font-playfair text-xl font-bold">
-                    {testimonialByIndex(index)}
-                  </h6>
-                  <p className="font-montserrat font-light mt-5">
-                    {reviewerByIndex(index)}
-                  </p>
+                <div className="embla__slide__div grid grid-cols-2 gap-10 justify-center items-center bg-tab-gray p-10 rounded-xl">
+                  <div className="col-span-2 lg:col-span-1">
+                    <h6 className="font-playfair text-2xl font-bold">
+                      {titleByIndex(index)}
+                    </h6>
+                    <p className="font-montserrat font-light mt-5">
+                      {textByIndex(index)}
+                    </p>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <img src={imgByIndex(index)} alt="illustrations" />
+                  </div>
                 </div>
               </div>
             ))}
           </div>
         </div>
-        <img
-          src="/images/quote2.png"
-          alt="quote sign"
-          className="absolute bottom-5 right-0 lg:bottom-10 lg:right-96 w-24 z-10"
-        />
-
         <div className="embla__dots">
           {scrollSnaps.map((_, index) => (
             <DotButton
@@ -71,4 +65,4 @@ const Testimonials = (props) => {
   );
 };
 
-export default Testimonials;
+export default WhyS2S;

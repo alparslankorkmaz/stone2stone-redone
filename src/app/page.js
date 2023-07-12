@@ -5,10 +5,15 @@ import ReactDOM from "react-dom/client";
 import Hero from "@/components/Hero";
 import WhatWeDo from "@/components/WhatWeDo";
 import Testimonials from "@/components/Testimonials";
+import WhyS2S from "@/components/WhyS2S";
 
-const OPTIONS = { loop: true };
-const SLIDE_COUNT = 6;
-const SLIDES = Array.from(Array(SLIDE_COUNT).keys());
+const OPTIONS1 = { loop: true };
+const SLIDE_COUNT1 = 6;
+const SLIDES1 = Array.from(Array(SLIDE_COUNT1).keys());
+
+const OPTIONS2 = { loop: true };
+const SLIDE_COUNT2 = 4;
+const SLIDES2 = Array.from(Array(SLIDE_COUNT2).keys());
 
 export default function Home() {
   return (
@@ -16,7 +21,8 @@ export default function Home() {
       <main>
         <Hero />
         <WhatWeDo />
-        <Testimonials slides={SLIDES} options={OPTIONS} />
+        <Testimonials slides={SLIDES1} options={OPTIONS1} />
+        <WhyS2S slides={SLIDES2} options={OPTIONS2} />
       </main>
     </>
   );
