@@ -1,6 +1,9 @@
+"use client";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Header() {
+  const currentRoute = usePathname();
   return (
     <>
       <nav className="py-5 px-10 flex justify-between items-center">
@@ -15,27 +18,39 @@ export default function Header() {
           </Link>
         </div>
         {/* NAV LINKS */}
-        <div className="inline-block font-montserrat capitalize">
+        <div className="inline-block font-montserrat font-light">
           <Link
             href="/"
-            className="inline-block mx-5 hover:text-s2s-green hover:font-semibold before:block before:font-semibold before:overflow-hidden before:invisible before:h-0 before:content-[attr(text)]"
             text="home"
+            className={
+              currentRoute === "/"
+                ? "mx-5 font-semibold text-s2s-green"
+                : "mx-5"
+            }
           >
-            home
+            Home
           </Link>
           <Link
-            href="/"
-            className="inline-block mx-5 hover:text-s2s-green hover:font-semibold before:block before:font-semibold before:overflow-hidden before:invisible before:h-0 before:content-[attr(text)]"
+            href="/success-stories"
             text="success stories"
+            className={
+              currentRoute === "/success-stories"
+                ? "mx-5 font-semibold text-s2s-green"
+                : "mx-5"
+            }
           >
-            success stories
+            Success Stories
           </Link>
           <Link
-            href="/"
-            className="inline-block mx-5 hover:text-s2s-green hover:font-semibold before:block before:font-semibold before:overflow-hidden before:invisible before:h-0 before:content-[attr(text)]"
+            href="/company"
             text="company"
+            className={
+              currentRoute === "/company"
+                ? "mx-5 font-semibold text-s2s-green"
+                : "mx-5"
+            }
           >
-            company
+            Company
           </Link>
         </div>
         {/* CONTACT US BUTTON */}

@@ -3,6 +3,7 @@ import useEmblaCarousel from "embla-carousel-react";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
 import Autoplay from "embla-carousel-autoplay";
 import { titleByIndex, textByIndex, imgByIndex } from "./WhyS2SByIndex";
+import Link from "next/link";
 
 const WhyS2S = (props) => {
   const { slides, options } = props;
@@ -40,6 +41,14 @@ const WhyS2S = (props) => {
                     <p className="font-montserrat font-light mt-5">
                       {textByIndex(index)}
                     </p>
+                    <div className="my-10">
+                      <Link
+                        href="/"
+                        className="bg-s2s-green px-7 py-3 rounded-xl font-playfair font-bold text-white"
+                      >
+                        Start a conversation
+                      </Link>
+                    </div>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
                     <img src={imgByIndex(index)} alt="illustrations" />

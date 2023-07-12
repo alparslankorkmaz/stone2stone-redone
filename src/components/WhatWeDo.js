@@ -119,7 +119,7 @@ export default function WhatWeDO() {
                     classNames(
                       "w-full py-10 font-playfair font-bold lg:text-2xl first:rounded-tl-xl last:rounded-tr-xl shadow-[rgba(0,0,15,0.2)_15px_0px_10px_0px]",
                       selected
-                        ? "bg-tab-gray shadow-[rgba(0,0,15,0.2)_15px_-15px_10px_0px] outline-none"
+                        ? "bg-tab-gray shadow-[rgba(0,0,15,0.2)_15px_-15px_15px_0px] outline-none"
                         : " hover:bg-tab-gray/[0.12]"
                     )
                   }
