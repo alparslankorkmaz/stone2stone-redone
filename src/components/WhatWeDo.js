@@ -106,10 +106,10 @@ export default function WhatWeDO() {
   return (
     <>
       <div className="">
-        <h3 className="font-playfair font-bold  text-4xl text-center my-16">
+        <h3 className="font-playfair font-bold  text-4xl text-center mt-20 mb-5">
           What we do
         </h3>
-        <div className="w-full p-3 lg:p-16">
+        <div className="w-full p-3 lg:py-10 lg:px-16">
           <Tab.Group>
             <Tab.List className="flex space-x-1 bg-tab-dark-gray rounded-t-xl">
               {Object.keys(categories).map((category) => (
@@ -138,7 +138,7 @@ export default function WhatWeDO() {
                     {tabs.map((tab) => (
                       <div
                         key={tab.id}
-                        className="grid grid-cols-2 gap-20 relative rounded-md p-5"
+                        className="grid grid-cols-2 lg:gap-20 relative rounded-md p-5"
                       >
                         <div className="col-span-2 lg:col-span-1">
                           <h3 className="text-2xl p-5 font-playfair font-bold">
@@ -160,7 +160,7 @@ export default function WhatWeDO() {
                             </div>
                           </div>
                         </div>
-                        <div className="col-span-2 lg:col-span-1 ">
+                        <div className="col-span-2 order-first lg:order-last lg:col-span-1 ">
                           <img src={tab.img} alt="illustrations" />
                         </div>
                       </div>
