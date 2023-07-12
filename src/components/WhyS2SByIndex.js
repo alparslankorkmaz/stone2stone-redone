@@ -29,4 +29,13 @@ export const imgs = [img1, img2, img3, img4];
 
 const imgByIndex = (index) => imgs[index % imgs.length];
 
-export { titleByIndex, textByIndex, imgByIndex };
+const button1 = "Start a conversation";
+const button2 = "Start generating";
+const button3 = "Feed your team";
+const button4 = "Start opening doors";
+
+export const buttons = [button1, button2, button3, button4];
+
+const buttonByIndex = (index) => buttons[index % buttons.length];
+
+export { titleByIndex, textByIndex, imgByIndex, buttonByIndex };

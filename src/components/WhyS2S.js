@@ -2,7 +2,12 @@ import React, { useCallback } from "react";
 import useEmblaCarousel from "embla-carousel-react";
 import { DotButton, useDotButton } from "./EmblaCarouselDotButton";
 import Autoplay from "embla-carousel-autoplay";
-import { titleByIndex, textByIndex, imgByIndex } from "./WhyS2SByIndex";
+import {
+  titleByIndex,
+  textByIndex,
+  imgByIndex,
+  buttonByIndex,
+} from "./WhyS2SByIndex";
 import Link from "next/link";
 
 const WhyS2S = (props) => {
@@ -22,7 +27,7 @@ const WhyS2S = (props) => {
 
   return (
     <div className="relative lg:p-20 mb-28">
-      <h4 className="font-playfair text-3xl text-center font-bold mb-32">
+      <h4 className="font-playfair text-3xl text-center font-bold mb-10 lg:mb-20">
         Why Technology Companies use S2S{" "}
       </h4>
       <div className="embla">
@@ -41,16 +46,16 @@ const WhyS2S = (props) => {
                     <p className="font-montserrat font-light mt-5">
                       {textByIndex(index)}
                     </p>
-                    <div className="my-10">
+                    <div className="mt-10">
                       <Link
                         href="/"
                         className="bg-s2s-green px-7 py-3 rounded-xl font-playfair font-bold text-white"
                       >
-                        Start a conversation
+                        {buttonByIndex(index)}
                       </Link>
                     </div>
                   </div>
-                  <div className="col-span-2 lg:col-span-1">
+                  <div className="col-span-2 order-first lg:order-last w-1/2 lg:w-full lg:col-span-1">
                     <img src={imgByIndex(index)} alt="illustrations" />
                   </div>
                 </div>

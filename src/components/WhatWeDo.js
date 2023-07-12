@@ -105,7 +105,7 @@ export default function WhatWeDO() {
 
   return (
     <>
-      <div className="">
+      <div className="mb-32 lg:mb-11">
         <h3 className="font-playfair font-bold  text-4xl text-center mt-20 mb-5">
           What we do
         </h3>

@@ -23,7 +23,7 @@ export default function Hero() {
         {/* GIFS */}
         <div className="my-10">
           {/* FIRST ROW */}
-          <div className="grid grid-cols-4 lg:me-14 mt-14">
+          <div className="grid grid-cols-4 gap-5 lg:me-14 mt-14">
             <div className="col-span-2 lg:col-span-1">
               <img src="/images/placeholder.png" alt="placeholder" />
             </div>
@@ -38,7 +38,7 @@ export default function Hero() {
             </div>
           </div>
           {/* SECOND ROW */}
-          <div className="grid grid-cols-4 lg:ms-20 mt-7">
+          <div className="grid grid-cols-4 gap-5 lg:ms-20 mt-7">
             <div className="col-span-2 lg:col-span-1">
               <img src="/images/placeholder.png" alt="placeholder" />
             </div>

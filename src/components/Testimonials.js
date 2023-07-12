@@ -21,7 +21,7 @@ const Testimonials = (props) => {
 
   return (
     <div className="relative overflow-hidden lg:overflow-visible lg:p-20 mb-28">
-      <h4 className="font-playfair text-3xl text-center font-bold mb-32">
+      <h4 className="font-playfair text-3xl text-center font-bold mb-10 lg:mb-32">
         Trusted by Technology Companies Everywhere
       </h4>
       <img
