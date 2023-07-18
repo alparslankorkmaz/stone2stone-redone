@@ -26,32 +26,32 @@ export default function Hero() {
         <div className="my-10">
           {/* FIRST ROW */}
           <div className="grid grid-cols-4 gap-5 lg:me-14 mt-14">
-            <div className="col-span-2 lg:col-span-1">
-              <img src="/images/placeholder.png" alt="placeholder" />
+            <div className="col-span-2 lg:col-span-1 rounded-xl overflow-hidden">
+              <img src="/gifs/1_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 lg:col-span-1">
-              <img src="/images/placeholder.png" alt="placeholder" />
+            <div className="col-span-2 lg:col-span-1 rounded-xl overflow-hidden">
+              <img src="/gifs/2_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 lg:col-span-1">
-              <img src="/images/placeholder.png" alt="placeholder" />
+            <div className="col-span-2 lg:col-span-1 rounded-xl overflow-hidden">
+              <img src="/gifs/3_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 lg:col-span-1">
-              <img src="/images/placeholder.png" alt="placeholder" />
+            <div className="col-span-2 lg:col-span-1 rounded-xl overflow-hidden">
+              <img src="/gifs/4_AdobeExpress.gif" alt="short clip" />
             </div>
           </div>
           {/* SECOND ROW */}
           <div className="grid grid-cols-4 gap-5 lg:ms-20 mt-7">
-            <div className="col-span-2 lg:col-span-1">
-              <img src="/images/placeholder.png" alt="placeholder" />
+            <div className="col-span-2 lg:col-span-1 rounded-xl overflow-hidden">
+              <img src="/gifs/5_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 lg:col-span-1">
-              <img src="/images/placeholder.png" alt="placeholder" />
+            <div className="col-span-2 lg:col-span-1 rounded-xl overflow-hidden">
+              <img src="/gifs/6_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 lg:col-span-1">
-              <img src="/images/placeholder.png" alt="placeholder" />
+            <div className="col-span-2 lg:col-span-1 rounded-xl overflow-hidden">
+              <img src="/gifs/7_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 lg:col-span-1">
-              <img src="/images/placeholder.png" alt="placeholder" />
+            <div className="col-span-2 lg:col-span-1 rounded-xl overflow-hidden">
+              <img src="/gifs/8_AdobeExpress.gif" alt="short clip" />
             </div>
           </div>
         </div>

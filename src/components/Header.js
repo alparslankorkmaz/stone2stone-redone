@@ -18,14 +18,14 @@ export default function Header() {
           </Link>
         </div>
         {/* NAV LINKS */}
-        <div className="inline-block font-montserrat font-light">
+        <div className="inline-block text-center font-montserrat font-light">
           <Link
             href="/"
             text="home"
             className={
               currentRoute === "/"
-                ? "mx-5 font-semibold text-s2s-green"
-                : "mx-5"
+                ? "mx-5 inline-block font-semibold text-s2s-green"
+                : "mx-5 inline-block"
             }
           >
             Home
@@ -35,8 +35,8 @@ export default function Header() {
             text="success stories"
             className={
               currentRoute === "/success-stories"
-                ? "mx-5 font-semibold text-s2s-green"
-                : "mx-5"
+                ? "mx-5 inline-block font-semibold text-s2s-green"
+                : "mx-5 inline-block"
             }
           >
             Success Stories
@@ -46,8 +46,8 @@ export default function Header() {
             text="company"
             className={
               currentRoute === "/company"
-                ? "mx-5 font-semibold text-s2s-green"
-                : "mx-5"
+                ? "mx-5 inline-block font-semibold text-s2s-green"
+                : "mx-5 inline-block"
             }
           >
             Company

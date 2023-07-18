@@ -117,10 +117,10 @@ export default function WhatWeDO() {
                   key={category}
                   className={({ selected }) =>
                     classNames(
-                      "w-full py-10 font-playfair font-bold lg:text-2xl first:rounded-tl-xl last:rounded-tr-xl ",
+                      "w-full py-10 font-playfair font-bold lg:text-2xl first:rounded-tl-xl last:rounded-tr-xl",
                       selected
-                        ? "bg-tab-gray shadow-[rgba(0,0,15,0.2)_15px_-15px_15px_0px] outline-none"
-                        : "shadow-[rgba(0,0,15,0.2)_15px_0px_10px_0px]"
+                        ? "bg-tab-gray border-l-2 border-r-2 border-tab-border outline-none"
+                        : "border-tab-gray "
                     )
                   }
                 >

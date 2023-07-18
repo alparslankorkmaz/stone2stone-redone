@@ -20,6 +20,7 @@ module.exports = {
         "s2s-slate": "#1F1F1F",
         "tab-gray": "#FAFAFA",
         "tab-dark-gray": "#F4F4F4",
+        "tab-border": "#D0EAEB",
       },
       aspectRatio: {
         "3/2": "3 / 2",
