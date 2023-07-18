@@ -23,66 +23,67 @@ export default function Hero() {
           </p>
         </div>
       </div>
+
       {/* GIF */}
       <div className="mb-20">
         {/* FIRST ROW */}
         <div className="relative flex overflow-x-hidden">
-          <div className="animate-marquee grid grid-cols-4 mt-14">
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+          <div className="animate-marquee grid grid-cols-12 lg:grid-cols-4 mt-14">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/1_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/2_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/3_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/4_AdobeExpress.gif" alt="short clip" />
             </div>
           </div>
-          <div className="absolute animate-marquee2 grid grid-cols-4 mt-14">
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+          <div className="absolute top-0 animate-marquee2 grid grid-cols-12 lg:grid-cols-4 mt-14">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/1_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/2_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/3_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/4_AdobeExpress.gif" alt="short clip" />
             </div>
           </div>
         </div>
         {/* SECOND ROW */}
         <div className="relative flex overflow-x-hidden">
-          <div className="animate-fastmarquee grid grid-cols-4 mt-7">
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+          <div className="animate-fastmarquee grid grid-cols-12 lg:grid-cols-4 mt-7">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/5_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/6_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/7_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/8_AdobeExpress.gif" alt="short clip" />
             </div>
           </div>
-          <div className="absolute animate-fastmarquee2 grid grid-cols-4 mt-7">
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+          <div className="absolute top-0 animate-fastmarquee2 grid grid-cols-12 lg:grid-cols-4 mt-7">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/5_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/6_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/7_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="col-span-2 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
+            <div className="col-span-3 mx-4 lg:col-span-1 rounded-xl overflow-hidden">
               <img src="/gifs/8_AdobeExpress.gif" alt="short clip" />
             </div>
           </div>
