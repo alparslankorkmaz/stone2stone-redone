@@ -54,14 +54,31 @@ export default function Header() {
           </Link>
         </div>
         {/* CONTACT US BUTTON */}
-        <div>
-          <Link href="/">
-            <img
-              src="/images/header/vector.png"
-              alt="contact us"
-              className="bg-s2s-green rounded-full p-3 w-14"
-            />
+        <div className="circle">
+          <Link href="/" className="z-10 absolute">
+            <img src="/images/header/contact_us.png" className="w-14" />
           </Link>
+          <svg id="rotatingText" viewBox="0 0 200 200" width="120" height="120">
+            <defs>
+              <path
+                id="circle"
+                d="M 100, 100
+                m -75, 0
+                a 75, 75 0 1, 0 150, 0
+                a 75, 75 0 1, 0 -150, 0
+                "
+              ></path>
+            </defs>
+            <text width="400">
+              <textPath
+                alignmentBaseline="top"
+                xlinkHref="#circle"
+                className="text font-montserrat text-xl"
+              >
+                Contact Us
+              </textPath>
+            </text>
+          </svg>
         </div>
       </nav>
     </>

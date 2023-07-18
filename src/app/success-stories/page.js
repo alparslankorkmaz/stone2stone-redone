@@ -1,4 +1,5 @@
 import OurClients from "@/components/OurClients";
+import Stories from "@/components/Stories";
 
 export default function SuccessStories() {
   return (
@@ -35,6 +36,7 @@ export default function SuccessStories() {
         </div>
       </div>
       <OurClients />
+      <Stories />
     </>
   );
 }
