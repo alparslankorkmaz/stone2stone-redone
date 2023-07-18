@@ -26,10 +26,10 @@ module.exports = {
         "3/2": "3 / 2",
       },
       animation: {
-        marquee: "marquee 25s linear infinite",
-        marquee2: "marquee2 25s linear infinite",
-        fastmarquee: "fastmarquee 20s linear infinite",
-        fastmarquee2: "fastmarquee2 20s linear infinite",
+        marquee: "marquee 40s linear infinite",
+        marquee2: "marquee2 40s linear infinite",
+        fastmarquee: "fastmarquee 30s linear infinite",
+        fastmarquee2: "fastmarquee2 30s linear infinite",
       },
       keyframes: {
         marquee: {
