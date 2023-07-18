@@ -54,7 +54,7 @@ export default function Header() {
           </Link>
         </div>
         {/* CONTACT US BUTTON */}
-        <div className="circle">
+        <div className="circle flex justify-center items-center">
           <Link href="/" className="z-10 absolute">
             <img src="/images/header/contact_us.png" className="w-14" />
           </Link>
