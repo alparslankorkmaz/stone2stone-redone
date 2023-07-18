@@ -8,12 +8,12 @@ export default function Header() {
     <>
       <nav className="py-5 px-10 flex justify-between items-center">
         {/* LOGO */}
-        <div>
+        <div className="min-w-fit w-32 flex justify-center items-center">
           <Link href="/">
             <img
               src="/images/header/logo.png"
               alt="stone2stone logo"
-              className="w-14 h-auto"
+              className="w-16 h-auto"
             />
           </Link>
         </div>
@@ -56,9 +56,13 @@ export default function Header() {
         {/* CONTACT US BUTTON */}
         <div className="circle flex justify-center items-center">
           <Link href="/" className="z-10 absolute">
-            <img src="/images/header/contact_us.png" className="w-14" />
+            <img src="/images/header/contact_us.png" className="w-11 lg:w-14" />
           </Link>
-          <svg id="rotatingText" viewBox="0 0 200 200" width="120" height="120">
+          <svg
+            id="rotatingText"
+            viewBox="0 0 200 200"
+            className="w-24 lg:w-32 h-auto"
+          >
             <defs>
               <path
                 id="circle"
@@ -69,13 +73,21 @@ export default function Header() {
                 "
               ></path>
             </defs>
-            <text width="400">
+            <text>
               <textPath
                 alignmentBaseline="top"
                 xlinkHref="#circle"
-                className="text font-playfair tracking-widest text-xl"
+                className="text font-playfair tracking-widest text-2xl lg:text-xl"
               >
-                Contact Us Now&emsp;&emsp;&emsp;Contact Us Now
+                Contact Us Now
+              </textPath>
+              <textPath
+                alignmentBaseline="top"
+                startOffset="230"
+                xlinkHref="#circle"
+                className="text font-playfair tracking-widest text-2xl lg:text-xl"
+              >
+                Contact Us Now
               </textPath>
             </text>
           </svg>
