@@ -73,9 +73,9 @@ export default function Header() {
               <textPath
                 alignmentBaseline="top"
                 xlinkHref="#circle"
-                className="text font-montserrat text-xl"
+                className="text font-playfair tracking-widest text-xl"
               >
-                Contact Us&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Contact Us
+                Contact Us Now&emsp;&emsp;&emsp;Contact Us Now
               </textPath>
             </text>
           </svg>
