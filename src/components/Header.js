@@ -75,7 +75,7 @@ export default function Header() {
                 xlinkHref="#circle"
                 className="text font-montserrat text-xl"
               >
-                Contact Us
+                Contact Us&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Contact Us
               </textPath>
             </text>
           </svg>
