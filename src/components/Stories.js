@@ -420,11 +420,205 @@ export default function Stories() {
                 </div>
               </Tab.Panel>
               {/* CREATIVE */}
-              <Tab.Panel>Content 3</Tab.Panel>
+              <Tab.Panel>
+                {" "}
+                <div className="grid grid-cols-2 gap-7">
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story1 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          ECI's 7 Resolutions{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Creative / January 2022
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story4 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          Cradlepoint PinPoint{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Creative / March 2022
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story8 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          e2e Assure Animation{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Creative / June 2020
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story11 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          NetAlly Wifi Wonderperson{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Creative / September 2021
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story14 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          Software One Duet{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Creative / August 2021
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story15 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          Red Hat's Innovation Island{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Creative / February 2023
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story17 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          Forescout Graphic Hoodie{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Creative / March 2023
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story20 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          SCC Animation{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Creative / June 2022
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                </div>
+              </Tab.Panel>
               {/* EVENTS */}
-              <Tab.Panel>Content 4</Tab.Panel>
+              <Tab.Panel>
+                {" "}
+                <div className="grid grid-cols-2 gap-7">
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story7 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          Check Point Partner Awards 2021{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Events / April 2021
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story12 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          Check Point Partner Awards 2022{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Events / May 2022
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                </div>
+              </Tab.Panel>
               {/* LEAD GENERATION */}
-              <Tab.Panel>Content 5</Tab.Panel>
+              <Tab.Panel>
+                {" "}
+                <div className="grid grid-cols-2 gap-7">
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story9 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          ECI and Forcepoint Posters{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Lead Generation / February 2021
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story10 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          e92 Plus Calculator{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Lead Generation / November 2021
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                  <div className="col-span-2 lg:col-span-1">
+                    <Link href="/">
+                      <div className="bg-story16 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
+                        {" "}
+                        <p className="font-playfair font-bold text-lg tracking-wide">
+                          {" "}
+                          Abacus Forged Coins{" "}
+                          <span className="block mt-1 font-montserrat text-xs font-light">
+                            Lead Generation / May 2023
+                          </span>{" "}
+                        </p>
+                      </div>{" "}
+                    </Link>
+                  </div>
+                </div>
+              </Tab.Panel>
             </Tab.Panels>
           </div>
         </div>
