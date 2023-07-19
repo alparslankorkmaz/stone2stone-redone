@@ -41,7 +41,11 @@ export default function Header() {
           >
             Success Stories
           </Link>
-          <a href="https://www.edventuremarketing.co.uk/" target="_blank">
+          <a
+            href="https://www.edventuremarketing.co.uk/"
+            target="_blank"
+            className="inline-block"
+          >
             EdVenture
           </a>
           <Link
