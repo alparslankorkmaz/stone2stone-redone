@@ -6,7 +6,7 @@ export default function Stories() {
   return (
     <>
       <Tab.Group vertical>
-        <div className="grid grid-cols-12 p-2 lg:p-16 gap-4 lg:gap-16 ">
+        <div className="grid grid-cols-12 px-5 py-10 lg:p-16 gap-4 lg:gap-16 ">
           <div className="col-span-12 lg:col-span-3">
             <Tab.List className="flex lg:flex-col text-sm lg:text-base font-playfair font-bold lg:whitespace-nowrap">
               <Tab className="mx-1 lg:mx-0 my-2 p-2 rounded-md bg-tab-dark-gray focus:bg-s2s-green focus:text-white outline-none">
@@ -33,7 +33,7 @@ export default function Stories() {
                 {" "}
                 <div className="grid grid-cols-2 gap-7">
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/eci-7-resolutions">
                       <div className="bg-story1 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -47,7 +47,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/csi-12-days-of-christmas">
                       <div className="bg-story2 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -61,7 +61,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/cdw-grounds-for-security">
                       <div className="bg-story3 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -75,7 +75,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/cradlepoint-pinpoint">
                       <div className="bg-story4 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -89,7 +89,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/gdw-and-dell-technologies">
                       <div className="bg-story5 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -103,7 +103,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/check-point-straight-to-the-point">
                       <div className="bg-story6 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -117,7 +117,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/check-point-partner-awards-2021">
                       <div className="bg-story7 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -131,7 +131,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/e2e-assure-animation">
                       <div className="bg-story8 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -145,7 +145,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/eci-and-forcepoint-posters">
                       <div className="bg-story9 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -159,7 +159,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/e92-plus-calculator">
                       <div className="bg-story10 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -173,7 +173,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/netally-wifi-wonderperson">
                       <div className="bg-story11 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -187,7 +187,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/check-point-partner-awards-2022">
                       <div className="bg-story12 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -201,7 +201,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/scc-quiz">
                       <div className="bg-story13 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -215,7 +215,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/software-one-duet">
                       <div className="bg-story14 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -229,7 +229,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/red-hat-innovation-island">
                       <div className="bg-story15 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -243,7 +243,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/abacus-forged-coins">
                       <div className="bg-story16 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -257,7 +257,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/forescout-graphic-hoodie">
                       <div className="bg-story17 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -271,7 +271,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/trend-micro-aws-video">
                       <div className="bg-story18 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -285,7 +285,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/forescout-infosecurity-video">
                       <div className="bg-story19 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -299,7 +299,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/scc-animation">
                       <div className="bg-story20 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -319,7 +319,7 @@ export default function Stories() {
                 {" "}
                 <div className="grid grid-cols-2 gap-7">
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/csi-12-days-of-christmas">
                       <div className="bg-story2 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -333,7 +333,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/cdw-grounds-for-security">
                       <div className="bg-story3 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -347,7 +347,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/gdw-and-dell-technologies">
                       <div className="bg-story5 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -361,7 +361,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/check-point-straight-to-the-point">
                       <div className="bg-story6 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -375,7 +375,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/scc-quiz">
                       <div className="bg-story13 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -389,7 +389,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/trend-micro-aws-video">
                       <div className="bg-story18 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -403,7 +403,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/forescout-infosecurity-video">
                       <div className="bg-story19 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -423,7 +423,7 @@ export default function Stories() {
                 {" "}
                 <div className="grid grid-cols-2 gap-7">
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/eci-7-resolutions">
                       <div className="bg-story1 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -437,7 +437,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/cradlepoint-pinpoint">
                       <div className="bg-story4 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -451,7 +451,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/e2e-assure-animation">
                       <div className="bg-story8 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -465,7 +465,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/netally-wifi-wonderperson">
                       <div className="bg-story11 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -479,7 +479,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/software-one-duet">
                       <div className="bg-story14 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -493,7 +493,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/red-hat-innovation-island">
                       <div className="bg-story15 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -507,7 +507,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/forescout-graphic-hoodie">
                       <div className="bg-story17 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -521,7 +521,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/scc-animation">
                       <div className="bg-story20 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -541,7 +541,7 @@ export default function Stories() {
                 {" "}
                 <div className="grid grid-cols-2 gap-7">
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/check-point-partner-awards-2021">
                       <div className="bg-story7 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -555,7 +555,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/check-point-partner-awards-2022">
                       <div className="bg-story12 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -575,7 +575,7 @@ export default function Stories() {
                 {" "}
                 <div className="grid grid-cols-2 gap-7">
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/eci-and-forcepoint-posters">
                       <div className="bg-story9 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -589,7 +589,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/e92-plus-calculator">
                       <div className="bg-story10 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
@@ -603,7 +603,7 @@ export default function Stories() {
                     </Link>
                   </div>
                   <div className="col-span-2 lg:col-span-1">
-                    <Link href="/">
+                    <Link href="/success-stories/abacus-forged-coins">
                       <div className="bg-story16 bg-center bg-cover col-span-2 lg:col-span-1 text-center py-20 px-10 text-white rounded-lg">
                         {" "}
                         <p className="font-playfair font-bold text-lg tracking-wide">
