@@ -1,4 +1,5 @@
 import OurClients from "./OurClients";
+import Marquee from "react-fast-marquee";
 
 export default function Hero() {
   return (
@@ -28,65 +29,61 @@ export default function Hero() {
       <div className="mb-20">
         {/* FIRST ROW */}
         <div className="relative flex overflow-x-hidden">
-          <div className="animate-marquee flex mt-14">
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+          <Marquee pauseOnHover speed={25} className="flex mt-14">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/1_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/2_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/3_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/4_AdobeExpress.gif" alt="short clip" />
             </div>
-          </div>
-          <div className="absolute top-0 animate-marquee2 flex mt-14">
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/1_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/2_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/3_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/4_AdobeExpress.gif" alt="short clip" />
             </div>
-          </div>
+          </Marquee>
         </div>
         {/* SECOND ROW */}
         <div className="relative overflow-x-hidden">
-          <div className="animate-fastmarquee flex mt-7">
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+          <Marquee pauseOnHover speed={35} className="flex mt-14">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/5_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/6_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/7_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/8_AdobeExpress.gif" alt="short clip" />
             </div>
-          </div>
-          <div className="absolute top-0 animate-fastmarquee2 flex mt-7">
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/5_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/6_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/7_AdobeExpress.gif" alt="short clip" />
             </div>
-            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden">
+            <div className="mx-1 lg:mx-4 rounded-xl overflow-hidden w-36 lg:w-72">
               <img src="/gifs/8_AdobeExpress.gif" alt="short clip" />
             </div>
-          </div>
+          </Marquee>
         </div>
       </div>
       <OurClients />

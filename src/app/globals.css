@@ -10,6 +10,23 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+//CONTACT BUTTON
+.text {
+}
+
+#rotatingText {
+  animation-name: rotate-circle;
+  animation-duration: 10s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes rotate-circle {
+  to {
+    transform: rotate(1turn);
+  }
+}
+
 //CAROUSEL
 .embla {
   overflow: hidden;
@@ -83,21 +100,4 @@ body::-webkit-scrollbar {
 }
 .embla__dot--selected:after {
   background: #d9d9d9;
-}
-
-//CONTACT BUTTON
-.text {
-}
-
-#rotatingText {
-  animation-name: rotate-circle;
-  animation-duration: 10s;
-  animation-timing-function: linear;
-  animation-iteration-count: infinite;
-}
-
-@keyframes rotate-circle {
-  to {
-    transform: rotate(1turn);
-  }
 }
