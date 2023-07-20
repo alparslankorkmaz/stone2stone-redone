@@ -66,7 +66,7 @@ export default function page() {
       <div className="lg:px-16 pb-10">
         <div className="bg-tab-dark-gray rounded-lg flex items-center gap-8 lg:gap-32 p-5 lg:p-10">
           <h4 className="font-playfair font-bold lg:text-xl">Results</h4>
-          <div className="flex gap-2 lg:gap-5 items-center">
+          <div className="flex gap-2 flex-col lg:flex-row justify-center text-center lg:text-left lg:gap-5 items-center">
             <img
               src="/images/stories/icons/person_icon.png"
               className="w-4 lg:w-7"
@@ -76,11 +76,11 @@ export default function page() {
               292 Unique Visitors
             </p>
           </div>
-          <div className="flex gap-2 lg:gap-5 items-center">
+          <div className="flex gap-2 flex-col lg:flex-row justify-center text-center lg:text-left lg:gap-5 items-center">
             <img
               src="/images/stories/icons/video_icon.png"
               className="w-6 lg:w-11"
-              alt="person icon"
+              alt="video icon"
             />
             <p className="font-montserrat text-xs lg:text-base">
               481 Video Views
