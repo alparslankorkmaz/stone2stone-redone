@@ -44,7 +44,7 @@ export default function Header() {
           <a
             href="https://www.edventuremarketing.co.uk/"
             target="_blank"
-            className="inline-block"
+            className="inline-block mx-5"
           >
             EdVenture
           </a>
