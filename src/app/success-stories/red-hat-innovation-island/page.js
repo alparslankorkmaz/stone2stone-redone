@@ -40,7 +40,7 @@ export default function page() {
         </div>
         {/* MIDDLE */}
         <div className="z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-32 lg:w-96">
-          <img src="/images/stories/monitors/15.webp" alt="monitor" />
+          <img src="/images/stories/monitors/15.webp" alt="phone" />
         </div>
         <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
