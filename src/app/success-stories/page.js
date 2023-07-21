@@ -17,7 +17,7 @@ export default function SuccessStories() {
           <p className="text-center mb-5">
             More than 250 leading technology companies have trusted Stone2Stone
             so far. Learn how our clients,
-            <span className="block">
+            <span className="lg:block">
               {" "}
               small and large, have grown their marketing results and rapidly
               hit and exceeded their targets.
