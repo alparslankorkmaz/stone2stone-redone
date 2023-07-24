@@ -1,6 +1,12 @@
 import OurClients from "@/components/OurClients";
 import Stories from "@/components/Stories";
 
+export const metadata = {
+  title: "Success Stories",
+  description:
+    "We're the B2B marketing agency built for technology companies. Our dedicated experts value your time, budget & vision, and can’t wait to start a conversation today.",
+};
+
 export default function SuccessStories() {
   return (
     <>

@@ -18,8 +18,9 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "stone2stone",
-  description: "Marketing Agency",
+  title: "Stone2Stone",
+  description:
+    "We're the B2B marketing agency built for technology companies. Our dedicated experts value your time, budget & vision, and can’t wait to start a conversation today.",
 };
 
 export default function RootLayout({ children }) {

@@ -1,10 +1,14 @@
-"use client";
 import React from "react";
-
 import Hero from "@/components/Hero";
 import WhatWeDo from "@/components/WhatWeDo";
 import Testimonials from "@/components/Testimonials";
 import WhyS2S from "@/components/WhyS2S";
+
+export const metadata = {
+  title: "Stone2Stone",
+  description:
+    "We're the B2B marketing agency built for technology companies. Our dedicated experts value your time, budget & vision, and can’t wait to start a conversation today.",
+};
 
 const OPTIONS1 = { loop: true };
 const SLIDE_COUNT1 = 6;

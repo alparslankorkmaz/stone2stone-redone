@@ -1,6 +1,11 @@
-"use client";
 import OurClients from "@/components/OurClients";
 import OurVision from "@/components/OurVision";
+
+export const metadata = {
+  title: "Company",
+  description:
+    "We're the B2B marketing agency built for technology companies. Our dedicated experts value your time, budget & vision, and can’t wait to start a conversation today.",
+};
 
 const OPTIONS = { loop: true };
 const SLIDE_COUNT = 4;
