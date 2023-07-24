@@ -10,6 +10,11 @@ body::-webkit-scrollbar {
   display: none;
 }
 
+html,
+body {
+  overflow-x: clip;
+}
+
 //CONTACT BUTTON
 .text {
 }

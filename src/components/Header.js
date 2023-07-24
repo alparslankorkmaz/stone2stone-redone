@@ -8,7 +8,7 @@ export default function Header() {
     <>
       <nav className="p-2 lg:py-5 lg:px-10 flex justify-between items-center">
         {/* LOGO */}
-        <div className="min-w-fit me-7 lg:me-0 w-32 flex justify-center items-center">
+        <div className="min-w-fit me-9 lg:me-0 w-32 flex justify-center items-center">
           <Link href="/">
             <img
               src="/images/header/logo.png"
