@@ -62,8 +62,12 @@ export default function Header() {
         </div>
         {/* CONTACT US BUTTON */}
         <div className="circle flex justify-center items-center">
-          <Link href="/" className="z-10 absolute">
-            <img src="/images/header/contact_us.png" className="w-11 lg:w-14" />
+          <Link href="/" className="z-10 absolute" aria-label="Contact Us!">
+            <img
+              src="/images/header/contact_us.png"
+              className="w-11 lg:w-14"
+              alt="contact us button"
+            />
           </Link>
           <svg
             id="rotatingText"
