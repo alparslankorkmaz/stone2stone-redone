@@ -10,7 +10,7 @@ export default function Company() {
   return (
     <>
       {/* TEXT */}
-      <div className="mt-10 p-4 lg:p-5">
+      <div className="mt-10 p-2 lg:p-5">
         <div className="hero-text font-montserrat">
           <h1 className="capitalize mb-7 font-playfair text-center text-4xl lg:text-6xl font-bold bg-hero_bg bg-cover bg-center bg-clip-text text-transparent">
             {" "}

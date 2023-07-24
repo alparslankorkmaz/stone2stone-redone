@@ -4,13 +4,13 @@ import Marquee from "react-fast-marquee";
 export default function Hero() {
   return (
     <>
-      <div className="hero mt-8 p-4 lg:p-5">
+      <div className="hero mt-8 p-2 lg:p-5">
         {/* TEXT */}
         <div className="hero-text">
           <h1 className="capitalize mb-5 font-playfair text-center text-4xl lg:text-6xl font-bold bg-hero_bg bg-cover bg-center bg-clip-text text-transparent">
             {" "}
             A B2B Marketing Agency for{" "}
-            <span className="block py-1 lg:py-5">
+            <span className="lg:block py-1 lg:py-5">
               Technology Companies
             </span>{" "}
           </h1>
