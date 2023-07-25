@@ -44,8 +44,8 @@ export default function page() {
               src="/images/stories/monitors/empty_monitor.png"
               alt="monitor"
             />
-            <div className="absolute w-full h-full top-0">
-              <div className="player-wrapper">
+            <div className="absolute w-[92%] top-[.95rem] left-4">
+              <div className="aspect-video relative">
                 <ReactPlayer
                   className="react-player"
                   url="https://www.youtube.com/playlist?list=PLXT5tViSP4xCUk_JmSLjIUErifBMsWo7j"
