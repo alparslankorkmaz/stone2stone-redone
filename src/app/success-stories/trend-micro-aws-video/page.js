@@ -17,13 +17,11 @@ export default function page() {
         </p>
       </div>
       {/* HERO */}
-      <div className="grid grid-cols-12 py-10 lg:p-16 gap-6 justify-end relative">
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+      <div className="grid grid-cols-12 py-10 lg:p-16 lg:gap-6 justify-end relative">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">
-              The Challenge
-            </h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Challenge</h3>
+            <p className="font-montserrat mt-3">
               To effectively showcase Trend Micro, its comprehensive services,
               dedicated employees, and active participation in the AWS event at
               the ExCel in London.{" "}
@@ -31,56 +29,47 @@ export default function page() {
           </div>
         </div>
 
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Target</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Target</h3>
+            <p className="font-montserrat mt-3">
               Both existing clients and new potential targets who demonstrated
               interest in Trend Micro's services, employees, and participation
               at the AWS event in London.{" "}
             </p>
           </div>
         </div>
-        {/* MIDDLE */}
-        <div className="z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-32 lg:w-96">
+        {/* MONITOR */}
+        <div className="p-5 lg:p-0 order-first lg:order-none col-span-12 md:col-span-7 md:col-start-3 lg:col-start-auto lg:z-10 lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:absolute lg:w-96">
           <div className="relative">
-            <a
-              href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              target="_blank"
-              className="block lg:hidden"
-            >
-              <img src="/images/stories/monitors/18.webp" alt="monitor" />
-            </a>
             <img
               src="/images/stories/monitors/empty_monitor.png"
               alt="monitor"
-              className="hidden lg:block"
             />
-            <div className="hidden lg:block absolute top-3 left-1/2 -translate-x-1/2">
+            <div className="player-wrapper">
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                width={360}
-                height={205}
-                controls
-                light
+                className="absolute top-3 left-4"
+                url="https://www.youtube.com/playlist?list=PLXT5tViSP4xAxycujeoedZaCb4gHC6Zvj"
+                width="92%"
+                height="65%"
               />
             </div>
           </div>
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Solution</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Solution</h3>
+            <p className="font-montserrat mt-3">
               Trend Micro leveraged compelling and informative social media
               content to effectively showcase their company and highlight their
               presence at the AWS London event on LinkedIn.{" "}
             </p>
           </div>
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Outcome</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Outcome</h3>
+            <p className="font-montserrat mt-3">
               A collection of videos was produced to showcase the Trend Micro
               booth, featuring their keynote speaker and demonstrating the range
               of services offered by the company.{" "}
@@ -91,7 +80,7 @@ export default function page() {
       {/* RESULTS */}
       <div className="lg:px-16 pb-10">
         <div className="bg-tab-dark-gray rounded-lg flex items-center gap-8 lg:gap-32 p-5 lg:p-10">
-          <h4 className="font-playfair font-bold lg:text-xl">Results</h4>
+          <h4 className="font-playfair font-bold text-xl">Results</h4>
           <div className="flex gap-2 flex-col lg:flex-row justify-center text-center lg:text-left lg:gap-5 items-center">
             <img
               src="/images/stories/icons/video_icon.png"

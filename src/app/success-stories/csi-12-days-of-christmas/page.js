@@ -13,13 +13,11 @@ export default function page() {
         </p>
       </div>
       {/* HERO */}
-      <div className="grid grid-cols-12 py-10 lg:p-16 gap-6 justify-end relative">
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+      <div className="grid grid-cols-12 py-10 lg:p-16 lg:gap-6 justify-end relative">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">
-              The Challenge
-            </h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Challenge</h3>
+            <p className="font-montserrat mt-3">
               To create an informative series of videos about who CSI, and IBM,
               are and how their solutions can benefit customers in a visually
               stimulating medium.{" "}
@@ -27,33 +25,33 @@ export default function page() {
           </div>
         </div>
 
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Target</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Target</h3>
+            <p className="font-montserrat mt-3">
               Potential Customers With Great Christmas Elf Skills That Would
               Benefit From CSI’s Managed Support And Cloud Services.{" "}
             </p>
           </div>
         </div>
-        {/* MIDDLE */}
-        <div className="z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-32 lg:w-96">
+        {/* MONITOR */}
+        <div className="order-first lg:order-none p-5 col-span-12 lg:z-10 lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:absolute lg:w-96">
           <img src="/images/stories/monitors/2.webp" alt="monitor" />
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Solution</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Solution</h3>
+            <p className="font-montserrat mt-3">
               The creation of 12 short form videos presented by experts from CSI
               and IBM, educating viewers in a conversational manner on their
               services from power servers to hybrid cloud solutions.{" "}
             </p>
           </div>
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Outcome</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Outcome</h3>
+            <p className="font-montserrat mt-3">
               A fun, interactive 12 Days of Christmas calendar filled with
               informational videos with a corresponding quiz to win a variety of
               amazing prizes.{" "}
@@ -64,7 +62,7 @@ export default function page() {
       {/* RESULTS */}
       <div className="lg:px-16 pb-10">
         <div className="bg-tab-dark-gray rounded-lg flex items-center gap-8 lg:gap-32 p-5 lg:p-10">
-          <h4 className="font-playfair font-bold lg:text-xl">Results</h4>
+          <h4 className="font-playfair font-bold text-xl">Results</h4>
           <div className="flex gap-2 flex-col lg:flex-row justify-center text-center lg:text-left lg:gap-5 items-center">
             <img
               src="/images/stories/icons/con_icon.png"

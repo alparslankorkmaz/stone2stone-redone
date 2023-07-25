@@ -14,13 +14,11 @@ export default function page() {
         </p>
       </div>
       {/* HERO */}
-      <div className="grid grid-cols-12 py-10 lg:p-16 gap-6 justify-end relative">
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+      <div className="grid grid-cols-12 py-10 lg:p-16 lg:gap-6 justify-end relative">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">
-              The Challenge
-            </h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Challenge</h3>
+            <p className="font-montserrat mt-3">
               Forescout approached Stone2Stone with a hoodie design that aimed
               to establish recognizable branding while effectively conveying
               information about Forescout's services.{" "}
@@ -28,23 +26,23 @@ export default function page() {
           </div>
         </div>
 
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Target</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Target</h3>
+            <p className="font-montserrat mt-3">
               Event attendees that were actively looking for services at events
               such as Infosecurity 2023.{" "}
             </p>
           </div>
         </div>
-        {/* MIDDLE */}
-        <div className="z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-32 lg:w-96">
+        {/* HOODIE */}
+        <div className="order-first lg:order-none p-5 col-span-12 lg:z-10 lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:absolute lg:w-96">
           <img src="/images/stories/monitors/17.webp" alt="hoodie" />
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Solution</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Solution</h3>
+            <p className="font-montserrat mt-3">
               A hoodie design featured a combination of cyber-related
               illustrations and the company logo stamp, resulting in a visually
               striking design. Additionally, the graphic incorporated the event
@@ -52,10 +50,10 @@ export default function page() {
             </p>
           </div>
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Outcome</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Outcome</h3>
+            <p className="font-montserrat mt-3">
               The hoodie design gained significant popularity during the events.
               This captivating design became a regular feature at every event
               where Forescout participated, making it a consistent and

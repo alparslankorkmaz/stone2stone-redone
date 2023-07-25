@@ -18,96 +18,56 @@ export default function page() {
       </div>
       {/* HERO */}
       <div className="grid grid-cols-12 py-10 lg:p-16 md:gap-6 justify-end relative">
-        <div className="m-5 lg:p-16 col-span-12 md:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">
-              The Challenge
-            </h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Challenge</h3>
+            <p className="font-montserrat mt-3">
               To create an engaging way to encourage new users to utilise ECI’s
               services going into 2022.{" "}
             </p>
           </div>
         </div>
 
-        <div className="m-5 lg:p-16 col-span-12 md:col-span-6 bg-tab-dark-gray rounded-lg md:text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Target</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Target</h3>
+            <p className="font-montserrat mt-3">
               Potential customers whose companies would benefit from ECI’s
               managed IT, cybersecurity and transformation services.{" "}
             </p>
           </div>
         </div>
-        {/* MOBILE MONITOR*/}
-        <div className="relative col-span-12 p-5 order-first md:hidden">
-          <img
-            src="/images/stories/monitors/empty_monitor.png"
-            alt="monitor"
-            className=""
-          />
-          <div className="absolute top-8 left-1/2 -translate-x-1/2">
-            <ReactPlayer
-              url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-              width={360}
-              height={205}
-              controls
-              light
-            />
-          </div>
-        </div>
-        {/* TABLET MONITOR*/}
-        <div className="hidden md:block lg:hidden z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-64">
+        {/* MONITOR */}
+        <div className="p-5 lg:p-0 order-first lg:order-none col-span-12 md:col-span-7 md:col-start-3 lg:col-start-auto lg:z-10 lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:absolute lg:w-96">
           <div className="relative">
             <img
               src="/images/stories/monitors/empty_monitor.png"
               alt="monitor"
-              className="hidden md:block lg:hidden"
             />
-            <div className="hidden md:block lg:hidden absolute top-2 left-1/2 -translate-x-1/2">
+            <div className="player-wrapper">
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                width={240}
-                height={135}
-                controls
-                light
+                className="absolute top-3 left-4"
+                url="https://www.youtube.com/playlist?list=PLXT5tViSP4xCUk_JmSLjIUErifBMsWo7j"
+                width="92%"
+                height="65%"
               />
             </div>
           </div>
         </div>
-        {/* DESKTOP MONITOR*/}
-        <div className="z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-32 lg:w-96">
-          <div className="relative">
-            <img
-              src="/images/stories/monitors/empty_monitor.png"
-              alt="monitor"
-              className="hidden lg:block"
-            />
-            <div className="hidden lg:block absolute top-3 left-1/2 -translate-x-1/2">
-              <ReactPlayer
-                url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
-                width={360}
-                height={205}
-                controls
-                light
-              />
-            </div>
-          </div>
-        </div>
-        <div className="m-5 lg:p-16 col-span-12 md:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Solution</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Solution</h3>
+            <p className="font-montserrat mt-3">
               The creation of 7 ‘resolutions’ each demonstrating a benefit of
               ECI’s services, with a corresponding video hosted by ECI experts
               engaging in conversation.{" "}
             </p>
           </div>
         </div>
-        <div className="m-5 lg:p-16 col-span-12 md:col-span-6 bg-tab-dark-gray rounded-lg md:text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Outcome</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Outcome</h3>
+            <p className="font-montserrat mt-3">
               A visually engaging series of interesting tech ‘resolutions’
               backed up by videos hosted by experts from ECI, discussing why
               each resolution is so beneficial to customers – and why they don’t
@@ -119,7 +79,7 @@ export default function page() {
       {/* RESULTS */}
       <div className="lg:px-16 pb-10">
         <div className="bg-tab-dark-gray rounded-lg flex items-center gap-8 lg:gap-32 p-5 lg:p-10">
-          <h4 className="font-playfair font-bold lg:text-xl">Results</h4>
+          <h4 className="font-playfair font-bold text-xl">Results</h4>
           <div className="flex gap-2 flex-col lg:flex-row justify-center text-center lg:text-left lg:gap-5 items-center">
             <img
               src="/images/stories/icons/person_icon.png"

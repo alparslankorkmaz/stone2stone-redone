@@ -15,13 +15,11 @@ export default function page() {
         </p>
       </div>
       {/* HERO */}
-      <div className="grid grid-cols-12 py-10 lg:p-16 gap-6 justify-end relative">
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+      <div className="grid grid-cols-12 py-10 lg:p-16 lg:gap-6 justify-end relative">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">
-              The Challenge
-            </h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Challenge</h3>
+            <p className="font-montserrat mt-3">
               Abacus aimed to develop a campaign highlighting the potential of
               their recent acquisition, Gotham Security, in bolstering
               cybersecurity defenses proactively, <br /> prior to any
@@ -30,32 +28,32 @@ export default function page() {
           </div>
         </div>
 
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Target</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Target</h3>
+            <p className="font-montserrat mt-3">
               New, potential and existing Abacus and Gotham Security customers.{" "}
             </p>
           </div>
         </div>
-        {/* MIDDLE */}
-        <div className="z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-32 lg:w-96">
+        {/* COIN */}
+        <div className="order-first lg:order-none p-5 col-span-12 lg:z-10 lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:absolute lg:w-96">
           <img src="/images/stories/monitors/16.webp" alt="coin" />
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Solution</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Solution</h3>
+            <p className="font-montserrat mt-3">
               A co-branded coin displayed both the Abacus and Gotham Security
               logos. It was packaged in an engaging booklet, accompanied by
               emails and a landing page.{" "}
             </p>
           </div>
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Outcome</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Outcome</h3>
+            <p className="font-montserrat mt-3">
               This campaign successfully attracted 15 new customer
               opportunities, while also bringing back two returning customers,
               consolidating the customer base and driving business growth.{" "}
@@ -66,7 +64,7 @@ export default function page() {
       {/* RESULTS */}
       <div className="lg:px-16 pb-10">
         <div className="bg-tab-dark-gray rounded-lg flex items-center gap-8 lg:gap-28 p-5 lg:p-10">
-          <h4 className="font-playfair font-bold lg:text-xl">Results</h4>
+          <h4 className="font-playfair font-bold text-xl">Results</h4>
           <div className="flex gap-2 flex-col lg:flex-row justify-center text-center lg:text-left lg:gap-5 items-center">
             <img
               src="/images/stories/icons/person_icon.png"

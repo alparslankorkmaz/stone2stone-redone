@@ -17,46 +17,53 @@ export default function page() {
         </p>
       </div>
       {/* HERO */}
-      <div className="grid grid-cols-12 py-10 lg:p-16 gap-6 justify-end relative">
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+      <div className="grid grid-cols-12 py-10 lg:p-16 lg:gap-6 justify-end relative">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">
-              The Challenge
-            </h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Challenge</h3>
+            <p className="font-montserrat mt-3">
               To create an utterly unique and engaging campaign for e92plus
               vendor netAlly’s new handheld device.{" "}
             </p>
           </div>
         </div>
 
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Target</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Target</h3>
+            <p className="font-montserrat mt-3">
               Senior contacts including engineering and operational directors at
               Telcos, who’s engineers rely on accurate and reliable testing
               equipment.{" "}
             </p>
           </div>
         </div>
-        {/* MIDDLE */}
-        <div className="z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-24 lg:w-72">
-          <img src="/images/stories/monitors/11.webp" alt="monitor" />
+        {/* MONITOR */}
+        <div className="p-5 lg:p-0 order-first lg:order-none col-span-12 md:col-span-7 md:col-start-3 lg:col-start-auto lg:z-10 lg:top-1/2 lg:left-1/2 lg:-translate-x-1/2 lg:-translate-y-1/2 lg:absolute lg:w-96">
+          <div className="relative">
+            <img
+              src="/images/stories/monitors/empty_monitor.png"
+              alt="monitor"
+              className=""
+            />
+            <div className="absolute top-3 overflow-scroll h-48 p-5">
+              <img src="/images/stories/wonderperson.jpeg" alt="" />{" "}
+            </div>
+          </div>
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Solution</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Solution</h3>
+            <p className="font-montserrat mt-3">
               Creation of ‘Wi-Fi Wonderperson’, our very own superhero with the
               power to save networks everywhere.{" "}
             </p>
           </div>
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 lg:col-span-6 bg-tab-dark-gray rounded-lg lg:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
-            <h3 className="font-playfair font-bold lg:text-xl">The Outcome</h3>
-            <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
+            <h3 className="font-playfair font-bold text-xl">The Outcome</h3>
+            <p className="font-montserrat mt-3">
               Creation of personalised comic book strips and email campaigns
               featuring targets as the superhero – because who wouldn’t want to
               save the (Wi-Fi) world?{" "}
@@ -67,7 +74,7 @@ export default function page() {
       {/* RESULTS */}
       <div className="lg:px-16 pb-10">
         <div className="bg-tab-dark-gray rounded-lg flex items-center gap-8 lg:gap-32 p-5 lg:p-10">
-          <h4 className="font-playfair font-bold lg:text-xl">Results</h4>
+          <h4 className="font-playfair font-bold text-xl">Results</h4>
           <div className="flex gap-2 flex-col lg:flex-row justify-center text-center lg:text-left lg:gap-5 items-center">
             <img
               src="/images/stories/icons/book_icon.png"
