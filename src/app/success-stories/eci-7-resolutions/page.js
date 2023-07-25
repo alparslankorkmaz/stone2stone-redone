@@ -47,7 +47,7 @@ export default function page() {
             <div className="absolute w-full h-full top-0">
               <div className="player-wrapper">
                 <ReactPlayer
-                  className="react-player absolute top-3 left-4"
+                  className="react-player"
                   url="https://www.youtube.com/playlist?list=PLXT5tViSP4xCUk_JmSLjIUErifBMsWo7j"
                   width="100%"
                   height="100%"
