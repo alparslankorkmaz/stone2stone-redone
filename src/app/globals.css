@@ -106,14 +106,3 @@ body {
 .embla__dot--selected:after {
   background: #d9d9d9;
 }
-
-//RESPONSIVE VIDEO PLAYER
-.player-wrapper {
-  position: relative;
-  padding-top: 56.25%; /* Player ratio: 100 / (1280 / 720) */
-}
-.react-player {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
