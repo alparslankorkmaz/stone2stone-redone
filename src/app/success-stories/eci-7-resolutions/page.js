@@ -44,13 +44,15 @@ export default function page() {
               src="/images/stories/monitors/empty_monitor.png"
               alt="monitor"
             />
-            <div className="player-wrapper">
-              <ReactPlayer
-                className="absolute top-0 left-0"
-                url="https://www.youtube.com/playlist?list=PLXT5tViSP4xCUk_JmSLjIUErifBMsWo7j"
-                width="100%"
-                height="100%"
-              />
+            <div className="absolute w-full h-full top-0">
+              <div className="player-wrapper">
+                <ReactPlayer
+                  className="react-player absolute top-3 left-4"
+                  url="https://www.youtube.com/playlist?list=PLXT5tViSP4xCUk_JmSLjIUErifBMsWo7j"
+                  width="92%"
+                  height="65%"
+                />
+              </div>
             </div>
           </div>
         </div>
