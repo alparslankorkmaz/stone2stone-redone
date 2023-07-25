@@ -1,4 +1,7 @@
+"use client";
 import React from "react";
+import dynamic from "next/dynamic";
+const ReactPlayer = dynamic(() => import("react-player"), { ssr: false });
 
 export default function page() {
   return (
@@ -14,8 +17,8 @@ export default function page() {
         </p>
       </div>
       {/* HERO */}
-      <div className="grid grid-cols-12 py-10 lg:p-16 gap-6 justify-end relative">
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+      <div className="grid grid-cols-12 py-10 lg:p-16 md:gap-6 justify-end relative">
+        <div className="m-5 lg:p-16 col-span-12 md:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
             <h3 className="font-playfair font-bold lg:text-xl">
               The Challenge
@@ -27,7 +30,7 @@ export default function page() {
           </div>
         </div>
 
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 md:col-span-6 bg-tab-dark-gray rounded-lg md:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
             <h3 className="font-playfair font-bold lg:text-xl">The Target</h3>
             <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
@@ -36,11 +39,62 @@ export default function page() {
             </p>
           </div>
         </div>
-        {/* MIDDLE */}
-        <div className="z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-32 lg:w-96">
-          <img src="/images/stories/monitors/1.webp" alt="monitor" />
+        {/* MOBILE MONITOR*/}
+        <div className="relative col-span-12 p-5 order-first md:hidden">
+          <img
+            src="/images/stories/monitors/empty_monitor.png"
+            alt="monitor"
+            className=""
+          />
+          <div className="absolute top-8 left-1/2 -translate-x-1/2">
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+              width={360}
+              height={205}
+              controls
+              light
+            />
+          </div>
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
+        {/* TABLET MONITOR*/}
+        <div className="hidden md:block lg:hidden z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-64">
+          <div className="relative">
+            <img
+              src="/images/stories/monitors/empty_monitor.png"
+              alt="monitor"
+              className="hidden md:block lg:hidden"
+            />
+            <div className="hidden md:block lg:hidden absolute top-2 left-1/2 -translate-x-1/2">
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                width={240}
+                height={135}
+                controls
+                light
+              />
+            </div>
+          </div>
+        </div>
+        {/* DESKTOP MONITOR*/}
+        <div className="z-10 top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 absolute w-32 lg:w-96">
+          <div className="relative">
+            <img
+              src="/images/stories/monitors/empty_monitor.png"
+              alt="monitor"
+              className="hidden lg:block"
+            />
+            <div className="hidden lg:block absolute top-3 left-1/2 -translate-x-1/2">
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
+                width={360}
+                height={205}
+                controls
+                light
+              />
+            </div>
+          </div>
+        </div>
+        <div className="m-5 lg:p-16 col-span-12 md:col-span-6 bg-tab-dark-gray rounded-lg grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 p-7 lg:p-0">
             <h3 className="font-playfair font-bold lg:text-xl">The Solution</h3>
             <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
@@ -50,7 +104,7 @@ export default function page() {
             </p>
           </div>
         </div>
-        <div className="lg:p-16 col-span-6 bg-tab-dark-gray rounded-lg text-right grid grid-cols-3 items-center">
+        <div className="m-5 lg:p-16 col-span-12 md:col-span-6 bg-tab-dark-gray rounded-lg md:text-right grid grid-cols-3 items-center">
           <div className="col-span-3 lg:col-span-2 lg:col-start-2 p-7 lg:p-0">
             <h3 className="font-playfair font-bold lg:text-xl">The Outcome</h3>
             <p className="font-montserrat text-xs md:text-sm lg:text-base mt-3">
