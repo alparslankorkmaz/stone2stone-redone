@@ -49,8 +49,8 @@ export default function page() {
                 <ReactPlayer
                   className="react-player absolute top-3 left-4"
                   url="https://www.youtube.com/playlist?list=PLXT5tViSP4xCUk_JmSLjIUErifBMsWo7j"
-                  width="92%"
-                  height="65%"
+                  width="100%"
+                  height="100%"
                 />
               </div>
             </div>
