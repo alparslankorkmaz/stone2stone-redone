@@ -42,15 +42,17 @@ export default function page() {
             <img
               src="/images/stories/monitors/empty_monitor.png"
               alt="monitor"
-              className=""
             />
-            <div className="player-wrapper">
-              <ReactPlayer
-                className="absolute top-3 left-4"
-                url="https://www.youtube.com/playlist?list=PLXT5tViSP4xBnA9_9Ur93DL5UN4JzC6OR"
-                width="92%"
-                height="65%"
-              />
+            <div className="absolute w-[93%] top-[.90rem] left-[.87rem]">
+              <div className="aspect-video relative">
+                <ReactPlayer
+                  className="react-player"
+                  url="https://www.youtube.com/playlist?list=PLXT5tViSP4xBnA9_9Ur93DL5UN4JzC6OR"
+                  width="100%"
+                  height="100%"
+                  controls
+                />
+              </div>
             </div>
           </div>
         </div>

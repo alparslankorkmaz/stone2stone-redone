@@ -45,13 +45,16 @@ export default function page() {
               src="/images/stories/monitors/empty_monitor.png"
               alt="monitor"
             />
-            <div className="player-wrapper">
-              <ReactPlayer
-                className="absolute top-3 left-4"
-                url="https://youtu.be/KrIuL6-YiB8"
-                width="92%"
-                height="65%"
-              />
+            <div className="absolute w-[93%] top-[.90rem] left-[.87rem]">
+              <div className="aspect-video relative">
+                <ReactPlayer
+                  className="react-player"
+                  url="https://youtu.be/KrIuL6-YiB8"
+                  width="100%"
+                  height="100%"
+                  controls
+                />
+              </div>
             </div>
           </div>
         </div>

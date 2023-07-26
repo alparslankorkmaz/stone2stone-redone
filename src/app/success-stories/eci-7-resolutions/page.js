@@ -44,13 +44,14 @@ export default function page() {
               src="/images/stories/monitors/empty_monitor.png"
               alt="monitor"
             />
-            <div className="absolute w-[93%] top-[.90rem] left-[.90rem]">
+            <div className="absolute w-[93%] top-[.90rem] left-[.87rem]">
               <div className="aspect-video relative">
                 <ReactPlayer
                   className="react-player"
                   url="https://www.youtube.com/playlist?list=PLXT5tViSP4xCUk_JmSLjIUErifBMsWo7j"
                   width="100%"
                   height="100%"
+                  controls
                 />
               </div>
             </div>
