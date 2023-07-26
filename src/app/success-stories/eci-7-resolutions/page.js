@@ -44,7 +44,7 @@ export default function page() {
               src="/images/stories/monitors/empty_monitor.png"
               alt="monitor"
             />
-            <div className="absolute w-[92%] top-[.95rem] left-4">
+            <div className="absolute w-[93%] top-[.90rem] left-[.90rem]">
               <div className="aspect-video relative">
                 <ReactPlayer
                   className="react-player"
