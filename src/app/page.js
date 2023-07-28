@@ -3,6 +3,8 @@ import Hero from "@/components/Hero";
 import WhatWeDo from "@/components/WhatWeDo";
 import Testimonials from "@/components/Testimonials";
 import WhyS2S from "@/components/WhyS2S";
+import { getServerSession } from "next-auth";
+import { authOptions } from "./api/auth/[...nextauth]/route";
 
 export const metadata = {
   title: "Stone2Stone",
@@ -18,15 +20,16 @@ const OPTIONS2 = { loop: true };
 const SLIDE_COUNT2 = 4;
 const SLIDES2 = Array.from(Array(SLIDE_COUNT2).keys());
 
-export default function Home() {
+export default async function Home() {
+  const session = await getServerSession(authOptions);
   return (
     <>
-      <main>
-        <Hero />
-        <WhatWeDo />
-        <Testimonials slides={SLIDES1} options={OPTIONS1} />
-        <WhyS2S slides={SLIDES2} options={OPTIONS2} />
-      </main>
+      <h1>SERVER SIDE RENDERED</h1>
+      <p>{JSON.stringify(session)}</p>
+      <Hero />
+      <WhatWeDo />
+      <Testimonials slides={SLIDES1} options={OPTIONS1} />
+      <WhyS2S slides={SLIDES2} options={OPTIONS2} />
     </>
   );
 }

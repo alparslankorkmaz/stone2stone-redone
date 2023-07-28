@@ -2,6 +2,8 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import { Playfair_Display, Montserrat } from "next/font/google";
+import Provider from "./context/AuthContext";
+import ToasterContext from "./context/ToasterContext";
 
 const playfair_display = Playfair_Display({
   subsets: ["latin"],
@@ -28,7 +30,10 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={`${playfair_display.variable} ${montserrat.variable}`}>
         <Header />
-        {children}
+        <Provider>
+          <ToasterContext />
+          {children}
+        </Provider>
         <Footer />
       </body>
     </html>

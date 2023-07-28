@@ -1,6 +1,7 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import SignOut from "./SignOut";
 
 export default function Header() {
   const currentRoute = usePathname();
@@ -59,6 +60,18 @@ export default function Header() {
           >
             Company
           </Link>
+          <Link
+            href="/login"
+            text="login"
+            className={
+              currentRoute === "/login" || currentRoute === "/dashboard"
+                ? "mx-5 inline-block font-semibold text-s2s-green"
+                : "mx-5 inline-block"
+            }
+          >
+            Dashboard
+          </Link>
+          {/* <SignOut /> */}
         </div>
         {/* CONTACT US BUTTON */}
         <div className="circle flex justify-center items-center">
