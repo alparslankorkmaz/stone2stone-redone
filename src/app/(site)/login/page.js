@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import { signIn, useSession } from "next-auth/react";
 import { toast } from "react-hot-toast";
 import { useRouter } from "next/navigation";
+import Link from "next/link";
 
 export default function Login() {
   const session = useSession();
@@ -100,6 +101,17 @@ export default function Login() {
               </button>
             </div>
           </form>
+          <div>
+            <p className="mt-10 text-center text-sm text-gray-500">
+              Don't have an account?{" "}
+              <Link
+                href="/register"
+                className="font-semibold leading-6 text-s2s-green hover:text-green-900"
+              >
+                Register
+              </Link>
+            </p>{" "}
+          </div>
         </div>
       </div>
     </>
