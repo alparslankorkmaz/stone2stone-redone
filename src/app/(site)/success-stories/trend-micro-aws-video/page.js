@@ -50,7 +50,7 @@ export default function page() {
               <div className="aspect-video relative">
                 <ReactPlayer
                   className="react-player"
-                  url="https://www.youtube.com/playlist?list=PLXT5tViSP4xAxycujeoedZaCb4gHC6Zvj "
+                  url="https://www.youtube.com/playlist?list=PLXT5tViSP4xAxycujeoedZaCb4gHC6Zvj"
                   width="100%"
                   height="100%"
                   controls

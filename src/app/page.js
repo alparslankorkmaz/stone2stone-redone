@@ -24,7 +24,8 @@ export default async function Home() {
   const session = await getServerSession(authOptions);
   return (
     <>
-      <h1>SERVER SIDE RENDERED</h1>
+      <h1>IN DEVELOPMENT</h1>
+      <h2>SERVER SIDE RENDERED</h2>
       <p>{JSON.stringify(session)}</p>
       <Hero />
       <WhatWeDo />
